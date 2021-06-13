@@ -6,3 +6,21 @@
 /*Framework*/
 
 @import './bootstrap.scss';
+
+//Variaveis
+@import "./variaveis.scss";
+
+//Components
+@import "./header.scss";
+@import "./nav-produtos.scss";
+@import "./banners-promocionais-statico.scss";
+@import "./produtos.scss";
+@import "./produtos-compra.scss";
+@import "./footer.scss";
+@import "./responsive.scss";
+
+//Components Bootstrap
+@import "./breadcrumb.scss";
+
+//Config
+@import "./config.scss";
