@@ -1,0 +1,36 @@
+{
+  "keywords": [
+    "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+
+  "name": "sv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "style": "dist/css/bootstrap.css",
+  "sass": "scss/bootstrap.scss",
+  "module": "dist/js/bootstrap.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monalizaborges/ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Monalizaborges/ecommerce/issues"
+  },
+  "homepage": "https://github.com/Monalizaborges/ecommerce#readme"
+}

@@ -1,45 +1,36 @@
-nav.nav-produtos{
-    background: $cor-secundaria;
-    color: $branco;
-  
-    a{
-      color: $branco;
+// Generate series of `.navbar-expand-*` responsive classes for configuring
+// where your navbar collapses.
+
+/*.navbar-expand {
+    @each $breakpoint in map-keys($grid-breakpoints) {
+        $next: breakpoint-next($breakpoint, $grid-breakpoints);
+        $infix: breakpoint-infix($next, $grid-breakpoints);
+        // stylelint-disable-next-line scss/selector-no-union-class-name
+        &#{$infix} {
+            @include media-breakpoint-up($next) {
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+                .navbar-nav {
+                    flex-direction: row;
+                    .dropdown-menu {
+                        position: absolute;
+                    }
+                    .nav-link {
+                        padding-right: $navbar-nav-link-padding-x;
+                        padding-left: $navbar-nav-link-padding-x;
+                    }
+                }
+                .navbar-nav-scroll {
+                    overflow: visible;
+                }
+                .navbar-collapse {
+                    display: flex !important; // stylelint-disable-line declaration-no-important
+                    flex-basis: auto;
+                }
+                .navbar-toggler {
+                    display: none;
+                }
+            }
+        }
     }
-    
-    ul.nav{
-      li{
-        position: relative;
-        padding: 10px;
-  
-        svg{
-          font-size: 20px;
-          margin-right: 10px;
-        }
-        
-        &:hover{
-          background: darken($color: $cor-secundaria, $amount: 30);
-          ul.nav{
-            display: block;
-          }
-        }
-  
-        ul.nav{
-          z-index: 999;
-          display:none;
-          
-          position: absolute;
-          top:44px;
-          left: 0px;
-  
-          background: $cor-secundaria;
-          border-top: solid $cor-primaria 10px;
-  
-          width: 100%;
-          
-          li{
-            padding: 10px 25px;
-          }
-        }
-      }
-    }
-  }
+}
