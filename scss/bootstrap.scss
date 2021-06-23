@@ -768,7 +768,7 @@
     --secondary: #6c757d;
     --success: #28a745;
     --info: #17a2b8;
-    --warning: #ffc107;
+    --warning: #5B1828;
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #343a40;
@@ -3624,14 +3624,14 @@ fieldset:disabled a.btn {
 
 .btn-warning {
     color: #212529;
-    background-color: #ffc107;
-    border-color: #ffc107
+    background-color: #5B1828;
+    border-color: #5B1828
 }
 
 .btn-warning:hover {
     color: #212529;
-    background-color: #e0a800;
-    border-color: #d39e00
+    background-color: #5B1828;
+    border-color: #5B1828;
 }
 
 .btn-warning.focus,
@@ -3931,14 +3931,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-warning {
-    color: #ffc107;
-    border-color: #ffc107
+    color: #5B1828;
+    border-color: #5B1828
 }
 
 .btn-outline-warning:hover {
     color: #212529;
-    background-color: #ffc107;
-    border-color: #ffc107
+    background-color: #5B1828;
+    border-color: #5B1828
 }
 
 .btn-outline-warning.focus,
@@ -3956,8 +3956,8 @@ fieldset:disabled a.btn {
 .btn-outline-warning:not(:disabled):not(.disabled):active,
 .show>.btn-outline-warning.dropdown-toggle {
     color: #212529;
-    background-color: #ffc107;
-    border-color: #ffc107
+    background-color: #5B1828;
+    border-color: #5B1828
 }
 
 .btn-outline-warning:not(:disabled):not(.disabled).active:focus,
