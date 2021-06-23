@@ -303,12 +303,55 @@
             font-weight: bold;
         }
         
+        .card {
+            background-image: url(../img/bannerpupple.png);
+            height: 460px;
+            margin-top: 30px;
+            width: 200px;
+        }
+        
+        .cardtwo {
+            background-image: url(../img/banner-can.png);
+            background-color: #AD2477;
+            height: 460px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            width: 200px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        
+        .card p {
+            color: #FFF;
+            font-weight: bold;
+            font-size: 28px;
+            margin-top: 149px;
+            margin-left: 50px;
+        }
+        
+        button.btn {
+            padding: 0 10px;
+            margin-top: 180px;
+            background-color: #FFF;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            height: 34px;
+            width: 200;
+        }
+        
+        button.btn:hover {
+            color: #000;
+            background-color: #afafaf;
+        }
+        
         .produtos {
-            margin: 20px 0;
+            margin-top: 10px;
         }
         
         .produtos .produtos-container {
-            margin: 56px 0;
+            margin-top: 50px;
+            margin-left: -60px;
         }
         
         .produtos .produtos-container .cardproduto {
@@ -316,21 +359,24 @@
         }
         
         .produtos .produtos-container .cardproduto p {
-            font-size: 18px;
-            margin: 5px 0;
-            padding: 0 10px;
+            font-size: 14px;
+            margin: 3px 0;
+            padding: 0 15px;
         }
         
         .produtos .produtos-container .cardproduto .produtos-preco {
-            font-size: 18px;
+            font-size: 14px;
             margin: 5px 0 0;
             margin-top: 14px;
-            padding: 0 10px;
+            padding: 0 15px;
         }
         
         .cardproduto {
             background-image: url(../img/bgprodoferta.png);
-            height: 548px;
+            height: 405px;
+            width: 215px;
+            margin-right: 15px;
+            margin-left: 75px;
         }
         
         button.btnum {
@@ -347,8 +393,13 @@
         }
         
         img.produm {
-            margin: 0 10px;
+            margin: 0 4px;
             padding: 18px;
+        }
+        
+        .title {
+            margin-top: 50px;
+            margin-bottom: 30px;
         }
         
         .produtos-compra figure {
@@ -3634,17 +3685,6 @@
             box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
         }
         
-        .btn-outline-warning {
-            color: #343A40;
-            border-color: #343A40;
-        }
-        
-        .btn-outline-warning:hover {
-            color: #FFF;
-            background-color: #343A40;
-            border-color: #5B1828;
-        }
-        
         .btn-outline-warning.focus,
         .btn-outline-warning:focus {
             box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
@@ -3652,16 +3692,16 @@
         
         .btn-outline-warning.disabled,
         .btn-outline-warning:disabled {
-            color: #ffc107;
-            background-color: transparent;
+            color: #000;
+            background-color: #FFF;
         }
         
         .btn-outline-warning:not(:disabled):not(.disabled).active,
         .btn-outline-warning:not(:disabled):not(.disabled):active,
         .show>.btn-outline-warning.dropdown-toggle {
             color: #212529;
-            background-color: #ffc107;
-            border-color: #ffc107;
+            background-color: #FFF;
+            border-color: #FFF;
         }
         
         .btn-outline-warning:not(:disabled):not(.disabled).active:focus,
