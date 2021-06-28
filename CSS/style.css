@@ -310,17 +310,6 @@
             width: 200px;
         }
         
-        .cardtwo {
-            background-image: url(../img/banner-can.png);
-            background-color: #AD2477;
-            height: 460px;
-            margin-top: 10px;
-            margin-bottom: 30px;
-            width: 200px;
-            margin-right: 10px;
-            border-radius: 5px;
-        }
-        
         .card p {
             color: #FFF;
             font-weight: bold;
@@ -400,6 +389,85 @@
         .title {
             margin-top: 50px;
             margin-bottom: 30px;
+        }
+        /* inicio Card box*/
+        
+        .cardtwo {
+            background-image: url(../img/banner-can.png);
+            background-color: #AD2477;
+            height: 460px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            width: 200px;
+            margin-right: 100px;
+            border-radius: 5px;
+            margin-left: 3px;
+        }
+        
+        .cardbox {
+            background-image: url(../img/Card_club.png);
+            height: 270px;
+            width: 220px;
+            margin-left: 93px;
+            margin-top: 10px;
+            margin-right: -25px;
+        }
+        
+        .produtos .produtos-container .cardbox {
+            color: #343A40;
+        }
+        
+        .produtos .produtos-container .cardbox h5 {
+            font-size: 18px;
+            margin: 3px 0;
+            padding: 0 15px;
+        }
+        
+        .produtos .produtos-container .cardbox .produtos-preco {
+            font-size: 14px;
+            margin: 5px 0 0;
+            margin-top: 14px;
+            padding: 0 15px;
+        }
+        
+        img.boximg {
+            margin: 0 50px;
+            padding: 5px;
+        }
+        
+        img.boxAmazing {
+            margin: 40px 10px;
+            padding: 5px;
+        }
+        
+        img.boxRefre {
+            margin: 40px 10px;
+            padding: 5px;
+        }
+        
+        img.boxExcep {
+            margin: 5px 25px;
+            padding: 30px;
+        }
+        
+        .text {
+            margin-top: -130px;
+            color: #27E0BF;
+        }
+        
+        .xubirubi .box-container {
+            margin-left: -80px;
+        }
+        /* fim Card box*/
+        /*About */
+        
+        .about {
+            padding: 100px;
+            text-align: justify;
+        }
+        
+        img.aboutimg {
+            margin-top: 10px;
         }
         
         .produtos-compra figure {
