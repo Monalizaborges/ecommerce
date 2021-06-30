@@ -8,10 +8,8 @@
     "framework",
     "web"
   ],
-
   "name": "sv",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "node-sass": "^6.0.0"
@@ -32,5 +30,6 @@
   "bugs": {
     "url": "https://github.com/Monalizaborges/ecommerce/issues"
   },
-  "homepage": "https://github.com/Monalizaborges/ecommerce#readme"
+  "homepage": "https://github.com/Monalizaborges/ecommerce#readme",
+  "description": ""
 }

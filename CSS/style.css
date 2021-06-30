@@ -469,6 +469,149 @@
         img.aboutimg {
             margin-top: 10px;
         }
+        /* PAGINA CLUBE */
+        
+        .banners-statico-clube {
+            background-color: #5B1828;
+            background-image: url(../img/quadro_vinho.png);
+            height: 202px;
+            width: 1105px;
+            margin-left: 126px;
+            margin-top: 43px;
+            background-size: cover;
+            padding: 28px 30px;
+            color: #FFF;
+            margin-bottom: 46px;
+            
+        }
+        
+        .banners-statico-clube p {
+            font-weight: 100;
+            font-size: 70px;
+            line-height: 110%;
+            margin-left: 340px;
+            margin-top: -140px;
+            font-family: Barrio;
+            text-shadow: 2px 4px 4px #000;
+        }
+        
+        .title_clube {
+            margin-top: 46px;
+            margin-bottom: 13px;
+            color: #24AD94;
+            font-size: 23px;
+            font-family: Roboto;
+        }
+        
+        .subtitle {
+            text-align: center;
+            margin-bottom: 35px;
+            color: #000;
+            font-family: Roboto;
+        }
+        
+        .quadro-clube {
+            background-image: url(../img/quadro_cinza.png);
+            margin-top: 10px;
+            margin-bottom: 50px;
+            margin-right: 100px;
+            border-radius: 9px;
+            margin-left: 25px;
+            height: 350px;
+            width: 1080px;
+        }
+        
+        .texto-essential {
+            text-align: center;
+            margin-top: -300px;
+            font-family: Roboto;
+        }
+        
+        .texto-refreshing {
+            text-align: center;
+            margin-top: -280px;
+            font-family: Roboto;
+        }
+        
+        .texto-amazing {
+            text-align: center;
+            margin-top: -280px;
+            font-family: Roboto;
+        }
+        
+        .texto-exceptional {
+            text-align: center;
+            margin-top: -280px;
+            font-family: Roboto;
+        }
+        
+        .texto-essential p {
+            text-align: left;
+            margin-left: 277px;
+            font-size: 16px;
+            margin-top: 35px;
+            font-family: Roboto;
+        }
+        
+        .texto-refreshing p {
+            text-align: left;
+            margin-left: 277px;
+            font-size: 16px;
+            margin-top: 35px;
+            font-family: Roboto;
+        }
+        
+        .texto-amazing p {
+            text-align: left;
+            margin-left: 277px;
+            font-size: 16px;
+            margin-top: 35px;
+            font-family: Roboto;
+        }
+        
+        .texto-exceptional p {
+            text-align: left;
+            margin-left: 277px;
+            font-size: 16px;
+            margin-top: 35px;
+            font-family: Roboto;
+        }
+        
+        img.img-essential {
+            height: 300px;
+            width: 195px;
+            margin-left: 43px;
+            margin-top: 25px;
+        }
+        
+        img.img-refreshing {
+            height: 200px;
+            width: 220px;
+            margin-top: 100px;
+        }
+        
+        img.img-amazing {
+            height: 200px;
+            width: 220px;
+            margin-top: 100px;
+        }
+        
+        img.img-exceptional {
+            height: 200px;
+            width: 180px;
+            margin-top: 92px;
+            margin-left: 23px;
+        }
+        
+        .essential-preco {
+            margin-left: 150px;
+            margin-top: 20px;
+        }
+        
+        .essential-preco h1 {
+            font-family: Roboto;
+            font-size: 22px;
+        }
         
         .produtos-compra figure {
             margin: 0;
@@ -481,10 +624,6 @@
         
         .produtos-compra .produtos-conteudo p {
             font-size: 16px;
-        }
-        
-        .produtos-compra .produtos-preco .produtos-stars svg {
-            fill: #FFC107;
         }
         
         .produtos-compra .produtos-preco strong {
@@ -513,6 +652,12 @@
         
         footer a {
             color: #FFF;
+            font-size: 14px;
+        }
+        
+        footer p {
+            color: #FFF;
+            font-size: 14px;
         }
         
         footer a:hover {
@@ -521,7 +666,7 @@
         
         footer h4 {
             color: #FFC107;
-            font-size: 19px;
+            font-size: 18px;
         }
         
         .bi-instagram {
@@ -11217,4 +11362,4 @@
             font-weight: bold;
             margin: 10px 0;
         }
-        /*# sourceMappingURL=style.css.map */
+        /*# sourceMappingURL=style.css.map
