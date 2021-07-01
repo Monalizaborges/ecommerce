@@ -1,44 +1,51 @@
 @mixin banners-promocionais($cor, $url-image) {
     background-color: $cor;
     background-image: url($url-image);
-  }
-  
-  .banners-promocionais-statico{
-    margin-top: 30px;
-  
-    .banners-promocionais-statico-12x{
-      @include banners-promocionais($rosa, '../images/parcele-em-12x.jpg');
-    }
-  
-    .banners-promocionais-statico-todo-br{
-      @include banners-promocionais($roxo, '../images/entrega-para-todo-brasil.jpg');
-    } 
-  
-    .banners-promocionais-statico-12x,
-    .banners-promocionais-statico-todo-br{
-      background-size: cover;
-      height: 105px;
-      padding: 20px 60px;
-      color: $branco;
-  
-      svg, p{
-        margin: 0;
-        padding: 0;
-      }
-  
-      svg{
-        font-size: 55px;
-      }
-  
-      p{
-        font-weight: 100;
-        font-size: 23px;
-        line-height: 110%;
-        margin-left: 20px;
-        strong{
-          font-weight: bold;
-        }
-      }
-      
-    }
-  }
+}
+
+.carousel-inner {
+    margin-top: 40px;
+}
+
+.banners-promocionais-statico {
+    margin-top: 10px;
+}
+
+.banners-promocionais-statico .banners-promocionais-statico-12x {
+    background-color: #5B1828;
+    background-image: url(../img/banner.png);
+}
+
+.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+    background-color: #5B1828;
+    background-image: url(../img/banner.png);
+}
+
+.banners-promocionais-statico-12x,
+.banners-promocionais-statico-todo-br {
+    background-size: cover;
+    height: 120px;
+    padding: 28px 30px;
+    color: #FFF;
+}
+
+.banners-promocionais-statico-12x svg,
+.banners-promocionais-statico-12x p,
+.banners-promocionais-statico-todo-br svg,
+.banners-promocionais-statico-todo-br p {
+    margin: 0;
+    padding: 0;
+}
+
+.banners-promocionais-statico-12x p,
+.banners-promocionais-statico-todo-br p {
+    font-weight: 100;
+    font-size: 23px;
+    line-height: 110%;
+    margin-left: 25px;
+}
+
+.banners-promocionais-statico-12x p strong,
+.banners-promocionais-statico-todo-br p strong {
+    font-weight: bold;
+}

@@ -1,49 +1,45 @@
-header {
-    background: rgb(66, 6, 11);
-    padding: 14px;
-    form {
-        input[type="text"] {
-            background: $branco;
-            width: 100%;
-            border-radius: 100px;
-            border: none;
-            padding: 10px 20px;
-        }
-        button {
-            background: none;
-            border: none;
-            position: absolute;
-            right: 25px;
-        }
-    }
-    ul {
-        li {
-            position: relative;
-            span.notificacao {
-                /*text*/
-                color: #FFF;
-                font-size: 10px;
-                width: 15px;
-                height: 15px;
-                position: absolute;
-                font-weight: bold;
-                /*background*/
-                background: #fff;
-                top: -10px;
-                left: 1px;
-                border-radius: 100%;
-            }
-            a {
-                font-size: 16px;
-                font-weight: bold;
-                color: $branco;
-                svg {
-                    font-size: 20px;
-                }
-                &:hover {
-                    color: initial;
-                }
-            }
-        }
-    }
+header form input[type=text] {
+    background: #FFF;
+    width: 100%;
+    border-radius: 100px;
+    border: none;
+    padding: 10px 20px;
+}
+
+header form button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 25px;
+    margin-top: 8px;
+}
+
+header ul li {
+    position: relative;
+}
+
+header ul li span.notificacao {
+    color: #000;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+header ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+header ul li a svg {
+    font-size: 23px;
+}
+
+header ul li a:hover {
+    color: initial;
 }
